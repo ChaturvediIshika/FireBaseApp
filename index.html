@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>FIRE BASE APP</title>
+</head>
+<body>
+    <div class="container">
+        <h2>CRUD with Firebase</h2>
+        <hr>
+        <div class="form">
+            <form action="">
+                Roll No: <input type="text" id="rollBox">
+                <br><br>
+                Name: &nbsp;&nbsp;<input type="text" id="nameBox">
+                <br><br>
+                Gender: <select name="" id="genBox">
+                    <option disabled selected>Select Choice</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                Address: <input type="text" id="addBox">
+                <br><br>
+                <div class="btns">
+                    <button class="btn">Insert</button>
+                    <button class="btn">Read</button>
+                    <button class="btn">Update</button>
+                    <button class="btn">Delete</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+    <script type="module" src="./fileconfig.js"></script>
+    <script type="module" src="./index.js"></script>
+
+</body>
+</html>
